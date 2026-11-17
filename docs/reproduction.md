@@ -1,0 +1,205 @@
+# Reproduction guide
+
+This guide assumes `config/config.yaml` has been created from
+`config/config.example.yaml` and that `CPSNV_DATA_ROOT`, `CPSNV_WORK_ROOT` and
+`CPSNV_RESULTS` point to the intended locations.
+
+## 0. Environment
+
+```bash
+docker build -t cross-plat-somatic-snv .
+docker run --rm -it -v /data:/data -v $PWD:/repo \
+  -e CPSNV_DATA_ROOT=/data -e CPSNV_WORK_ROOT=/data/work \
+  cross-plat-somatic-snv doctor
+```
+
+Manta 1.6.0 and Strelka 2.9.10 are Python 2.7 packages, so the image creates a
+separate `legacy` environment for them and invokes their `runWorkflow.py`
+scripts with `python2.7`.  On a restricted network:
+
+```bash
+docker build --network=host \
+  --build-arg APT_MIRROR=mirrors.aliyun.com \
+  --build-arg PROXY_HOST=<proxy-host> --build-arg PROXY_PORT=<proxy-port> \
+  -t cross-plat-somatic-snv .
+```
+
+All commands below can run inside the container (replace `python` by
+`docker run ... cross-plat-somatic-snv`).
+
+## 1. Alignment
+
+```bash
+python workflow/run.py configs --kind align
+snakemake -s workflow/align/align.smk \
+  --configfile $CPSNV_WORK_ROOT/0.align/config.json \
+  --directory $CPSNV_WORK_ROOT/0.align --cores 64
+```
+
+`align.smk` runs `fastp` (default trimming), `bwa mem -K 100000000 -k 32 -M`,
+`samtools sort` and `samtools index`.  Output:
+`$CPSNV_WORK_ROOT/0.align/bam/{sample_id}/{sample_id}.bam`.
+
+## 2. PosMix simulation and somatic calling
+
+Generate per-pair configs:
+
+```bash
+python workflow/run.py configs --kind simulation
+python workflow/run.py configs --kind benchmark
+python workflow/run.py configs --kind consistency
+python workflow/run.py configs --kind twist_hybrid
+```
+
+Run each pair in its own directory:
+
+```bash
+python workflow/run.py simulate --role test --cores 100
+python workflow/run.py simulate --role benchmark --cores 100
+python workflow/run.py simulate --role train --cores 100
+```
+
+Each config requests `mutect2`, `strelka2`, `varscan`, `varscan_novo` and
+`features`.  `features` adds Mutect2 force-calling, sorted VarScan alleles and
+a bam-readcount table for SomaticXGB.
+
+Outputs per pair:
+
+```
+mutect/{id}_reads{N}M.filter.vcf.gz
+strelka/{id}_reads{N}M/results/variants/somatic.snvs.vcf.gz
+varscan_novo/{id}_reads{N}M.snp.pass.vcf.gz
+mutect_a_vraw/{id}_reads{N}M.raw.vcf.gz
+varscan_novo/{id}_reads{N}M.raw.snp.vcf.rc.tsv.gz
+```
+
+The consistency run (Fig. 1b) additionally needs `posfeature` calls on the
+donor, background and simulated-tumour BAMs:
+
+```bash
+python analysis/02_consistency/consistency_from_posfeature.py
+```
+
+## 3. SomaticXGB
+
+```bash
+Rscript workflow/somaticxgb/train_SomaticXGB.R \
+  --pairs $CPSNV_WORK_ROOT/4.train/{12,13,21,23,31,32} \
+  --outdir $CPSNV_WORK_ROOT/5.somaticxgb/train \
+  --nthread 16
+
+Rscript workflow/somaticxgb/predict_SomaticXGB.R \
+  --pairs $CPSNV_WORK_ROOT/4.test/45 $CPSNV_WORK_ROOT/4.test/54 \
+  --outdir $CPSNV_WORK_ROOT/5.somaticxgb/test \
+  --model software/somaticxgb/models/SomaticXGB
+```
+
+The released model can be used directly
+(`software/somaticxgb/models/SomaticXGB`); retraining reproduces Tables S19 and
+S20.  The test feature matrix is expected to contain 137,131 candidates
+(27,328 positive / 109,803 negative) across 60 conditions.
+
+## 4. Error rates (errorRates)
+
+`errorRates-v1.3` is vendored in `software/errorRates/`.  For each aligned,
+duplicate-marked BAM:
+
+```bash
+BAM=$CPSNV_WORK_ROOT/0.align/pipeline/bwamem/SURFSeq_5000_HG001_GM231129011/SURFSeq_5000_HG001_GM231129011.bam
+OUT=$CPSNV_WORK_ROOT/1.errorRates/pipeline/bwamem/SURFSeq_5000_HG001_GM231129011/SURFSeq_5000_HG001_GM231129011.er.txt.gz
+
+bash software/errorRates/run_errorRates.sh   -b "$BAM"   -f "$CPSNV_DATA_ROOT/reference/GRCh37/genome.fasta"   -l reference/panel/T364V1.hg19.homoref.bed   -o "$OUT" -t 16
+```
+
+Use the same command for the three batches in the manuscript:
+
+| Batch | Work directory | Input |
+|-------|----------------|-------|
+| full depth | `$CPSNV_WORK_ROOT/1.errorRates` | all 72 aligned datasets |
+| 70M PE, Q30 | `$CPSNV_WORK_ROOT/7.errorRates_bq30_PE70M` | down-sampled 70M paired-end reads |
+| Twist wild type | `$CPSNV_WORK_ROOT/9.errorRates_bq30_twist_wt_PE15M` | 0% Twist libraries |
+
+Then aggregate:
+
+```bash
+python analysis/01_error_rates/build_error_rates_by_q.py
+python analysis/01_error_rates/A3_error_rates.py
+```
+
+`build_error_rates_by_q.py` produces the Q0/Q30 table used in Fig. 3d/e;
+`A3_error_rates.py` adds the multi-threshold and per-quality tables
+(Additional file 1: Tables S23/S24; Additional file 2: Fig. S3).
+
+## 5. Twist cfDNA validation
+
+Physical 1 % and 0 % Twist libraries are called with the same Mutect2 /
+Strelka2 / VarScan2 settings, then scored with SomaticXGB.  The Twist/HG001
+simulation is a normal PosMix run (`8.twist_HG001_mix`).
+
+```bash
+python analysis/05_test_set/prepare_giab_inputs.py
+python analysis/06_twist/derive_twist_tables.py \
+  --twist-vcf data/twist/truth/twist_cfdna_pancancer_v1.hg19.vcf
+# The submitted data panels are regenerated by analysis/r_figures/02_fig4.R
+```
+
+## 6. Revision analyses
+
+The response-letter analyses are independent scripts; each reads the layout
+above and writes to `$CPSNV_RESULTS/tables`:
+
+```bash
+python analysis/04_model/A2_two_feature_baseline.py
+python analysis/04_model/A2_summary.py
+python analysis/04_model/C3_collinearity.py
+python analysis/03_benchmark/B1_baseline_threshold_sweep.py
+python analysis/03_benchmark/B1b_fair_tuning.py
+python analysis/03_benchmark/B1c_all_depths_fair.py
+python analysis/05_test_set/C2_fp_distance.py
+python analysis/05_test_set/G1_donor_fragment_audit.py
+python analysis/05_test_set/R24_sharing_and_direction.py
+python analysis/05_test_set/R27_mixed_models.py
+python analysis/05_test_set/D1_matched_dedup_depth.py
+python analysis/05_test_set/D1b_bam_depth_matching.py
+```
+
+`A1_metrics.py`, `C1_empty_target_stats.py` and
+`A4_representative_calls_0pct.py` take explicit input paths; see their
+`--help`.
+
+## 7. Figures and tables
+
+```bash
+python analysis/07_figures_tables/make_all.py --step all
+```
+
+or individual steps:
+
+```bash
+python analysis/07_figures_tables/make_all.py --step fig2d
+python analysis/07_figures_tables/make_all.py --step fig3
+python analysis/07_figures_tables/make_all.py --step fig4
+python analysis/07_figures_tables/make_all.py --step supplement
+```
+
+## 8. Smoke test
+
+```bash
+python tests/test_smoke.py -v
+```
+
+The tests build tiny synthetic tables, run the figure scripts and check the
+config generator and dry-run orchestration.  They do not run any aligner or
+variant caller.
+
+## Known limitations
+
+- The raw sequencing data are public but large (~3.2 Tb); alignment is the
+  dominant cost and was not rerun in this repository.
+- The `errorRates-v1.3` binary and the panel BED are included.  The upstream
+  reporting framework and the other reference bundles are not.
+- The schematics in Fig. 1a and Fig. 2a-c are vector artwork, not generated
+  code.
+- The exact random draws used for the released position tables are preserved in
+  `workflow/pos_files/`; regenerating tables from GIAB VCFs with a different
+  seed will produce different site/VAF assignments.

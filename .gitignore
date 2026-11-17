@@ -1,0 +1,27 @@
+# data and pipeline outputs
+data/
+work/
+results/*
+!results/.gitkeep
+*.bam
+*.bai
+*.cram
+*.vcf.gz
+*.vcf.gz.tbi
+*.fastq
+*.fq
+*.fq.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Snakemake
+.snakemake/
+
+# editors
+.vscode/
+.idea/
+.DS_Store

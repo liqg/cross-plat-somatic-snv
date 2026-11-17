@@ -1,0 +1,35 @@
+# Copy to config/config.yaml and edit.  All paths may be absolute or relative
+# to the repository root.  CPSNV_DATA_ROOT / CPSNV_WORK_ROOT override the two
+# roots for every analysis script.
+data_root: data
+work_root: data/work
+results_root: results
+
+reference:
+  genome_fasta: data/reference/GRCh37/genome.fasta
+  panel_bed: reference/panel/T364V1.hg19.bed
+  errorrates_bed: reference/panel/T364V1.hg19.homoref.bed
+  giab_dir: data/giab/v4.2.1
+  giab_highconf_dir: data/giab/highconf
+
+threads: 16
+java_mem: 16g
+
+tools:
+  posmix: software/bin/posmix
+  posfeature: software/bin/posfeature
+  bam_readcount: software/bin/bam-readcount
+  varscan_jar: software/varscan/VarScan.v2.4.3.jar
+  somaticfilter: software/somaticfilter/somaticfilter.pl
+  reshape_rc: software/reshapeRC/reshapeRC.py
+  errorRates: software/errorRates/errorRates-v1.3
+
+somaticxgb:
+  model: software/somaticxgb/models/SomaticXGB
+  novaseqx_model: software/somaticxgb/models/NovaSeqX_only
+  r_library: software/R/data.vcf_0.2.0.tar.gz
+
+callers:
+  train: ["varscan", "varscan_novo", "features"]
+  test:  ["mutect2", "strelka2", "varscan", "varscan_novo", "features"]
+  benchmark: ["strelka2", "mutect2", "varscan_novo", "features"]

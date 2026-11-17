@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or PosMix, please cite the manuscript below."
+title: "cross-plat-somatic-snv: reproduction code for cross-platform low-frequency somatic SNV benchmarking"
+authors:
+  - family-names: Feng
+    given-names: Baosheng
+  - family-names: Lin
+    given-names: Yixin
+  - family-names: Liu
+    given-names: Lei
+  - family-names: Li
+    given-names: Qigang
+year: 2026
+license: MIT
+repository-code: "https://github.com/liqg/cross-plat-somatic-snv"
+preferred-citation:
+  type: article
+  title: "Assessing Low-Frequency Somatic SNV Detection: A Multi-Platform High-Throughput Sequencing Perspective"
+  authors:
+    - family-names: Feng
+      given-names: Baosheng
+    - family-names: Lin
+      given-names: Yixin
+    - family-names: Liu
+      given-names: Lei
+    - family-names: Li
+      given-names: Qigang
+  year: 2026
+  journal: "BMC Bioinformatics (submitted)"

@@ -1,0 +1,11 @@
+.git
+.github
+data
+work
+results
+**/__pycache__
+**/*.pyc
+*.bam
+*.bai
+*.vcf.gz
+*.fq.gz

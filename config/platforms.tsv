@@ -1,0 +1,7 @@
+id	display_name	color	prep_compatibility
+FASTASeq_300	FASTASeq 300	#D55E00	TruSeq
+GenoLab_M	GenoLab M	#0072B2	TruSeq
+SURFSeq_5000	SURFSeq 5000	#009E73	TruSeq
+NovaSeq_6000	NovaSeq 6000	#CC79A7	TruSeq
+NovaSeq_X	NovaSeq X	#E69F00	TruSeq
+MGISEQ-T7	DNBSEQ-T7	#8C564B	DNBSEQ

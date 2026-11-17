@@ -1,0 +1,10 @@
+name: cpsnv-legacy
+# Manta 1.6.0 and Strelka 2.9.10 are Python 2.7 packages and cannot coexist
+# with the Python 3.10 main environment.  Keep them in a small side environment.
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=2.7
+  - manta=1.6.0
+  - strelka=2.9.10

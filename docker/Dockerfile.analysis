@@ -1,0 +1,35 @@
+# Lightweight image for the figure / table scripts only.
+#
+# Build:
+#   docker build -f docker/Dockerfile.analysis -t cross-plat-somatic-snv-analysis .
+#
+# Run:
+#   docker run --rm -v $PWD/results:/repo/results cross-plat-somatic-snv-analysis \
+#       python analysis/07_figures_tables/make_all.py --step fig4 --dry-run
+
+FROM python:3.10-slim
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    MPLBACKEND=Agg
+
+ARG APT_MIRROR=deb.debian.org
+RUN sed -i "s|deb.debian.org|${APT_MIRROR}|g" /etc/apt/sources.list.d/debian.sources 2>/dev/null || true; \
+    apt-get -o Acquire::ForceIPv4=true update && apt-get -o Acquire::ForceIPv4=true install -y --no-install-recommends \
+        bcftools tabix bedtools fonts-liberation poppler-utils ghostscript \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY docker/analysis-requirements.txt /tmp/requirements.txt
+ARG PIP_INDEX_URL=https://pypi.org/simple
+RUN pip install --no-cache-dir --index-url ${PIP_INDEX_URL} -r /tmp/requirements.txt
+
+WORKDIR /repo
+COPY analysis /repo/analysis
+COPY config /repo/config
+COPY reference /repo/reference
+COPY software/somaticxgb /repo/software/somaticxgb
+COPY workflow /repo/workflow
+COPY tests /repo/tests
+COPY released /repo/released
+
+ENV PYTHONPATH=/repo/analysis
+CMD ["python", "-c", "import pandas, numpy, sklearn, statsmodels, matplotlib; print('analysis image OK')"]

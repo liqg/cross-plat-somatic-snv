@@ -1,0 +1,7 @@
+vaf_id	vaf_label	posfreq	seed	depths_M	donor_pair
+0dot5	0.5%	workflow/pos_files/benchmark/pf21_0dot5.txt	2995	25,50,75,100,125	21
+1	1%	workflow/pos_files/benchmark/pf21_1.txt	999	25,50,75,100,125	21
+1dot5	1.5%	workflow/pos_files/benchmark/pf21_1dot5.txt	95	25,50,75,100,125	21
+2	2%	workflow/pos_files/benchmark/pf21_2.txt	235	25,50,75,100,125	21
+3	3%	workflow/pos_files/benchmark/pf21_3.txt	2555	25,50,75,100,125	21
+5	5%	workflow/pos_files/benchmark/pf21_5.txt	2675	25,50,75,100,125	21

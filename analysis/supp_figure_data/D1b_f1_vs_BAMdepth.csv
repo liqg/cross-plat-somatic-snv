@@ -1,0 +1,2041 @@
+Group,Platform,F1_metric,Source,RawReads,BAM_est_depth,F1,WithinObservedRange
+45,DNBSEQ-T7,F1@0.1,observed,60.000000,1489.818000,0.882979,True
+45,DNBSEQ-T7,F1_best,observed,60.000000,1489.818000,0.907834,True
+45,DNBSEQ-T7,F1@0.1,observed,80.000000,1986.424000,0.926361,True
+45,DNBSEQ-T7,F1_best,observed,80.000000,1986.424000,0.938731,True
+45,DNBSEQ-T7,F1@0.1,observed,100.000000,2483.030000,0.936354,True
+45,DNBSEQ-T7,F1_best,observed,100.000000,2483.030000,0.951955,True
+45,DNBSEQ-T7,F1@0.1,observed,120.000000,2979.636000,0.947141,True
+45,DNBSEQ-T7,F1_best,observed,120.000000,2979.636000,0.957684,True
+45,DNBSEQ-T7,F1@0.1,observed,140.000000,3476.242000,0.952991,True
+45,DNBSEQ-T7,F1_best,observed,140.000000,3476.242000,0.972558,True
+45,FASTASeq 300,F1@0.1,observed,60.000000,1895.334000,0.916579,True
+45,FASTASeq 300,F1_best,observed,60.000000,1895.334000,0.949721,True
+45,FASTASeq 300,F1@0.1,observed,80.000000,2527.112000,0.945687,True
+45,FASTASeq 300,F1_best,observed,80.000000,2527.112000,0.959821,True
+45,FASTASeq 300,F1@0.1,observed,100.000000,3158.890000,0.941300,True
+45,FASTASeq 300,F1_best,observed,100.000000,3158.890000,0.961290,True
+45,FASTASeq 300,F1@0.1,observed,120.000000,3790.668000,0.956797,True
+45,FASTASeq 300,F1_best,observed,120.000000,3790.668000,0.968306,True
+45,FASTASeq 300,F1@0.1,observed,140.000000,4422.446000,0.957895,True
+45,FASTASeq 300,F1_best,observed,140.000000,4422.446000,0.971678,True
+45,GenoLab M,F1@0.1,observed,60.000000,1876.704000,0.915254,True
+45,GenoLab M,F1_best,observed,60.000000,1876.704000,0.928571,True
+45,GenoLab M,F1@0.1,observed,80.000000,2502.272000,0.924211,True
+45,GenoLab M,F1_best,observed,80.000000,2502.272000,0.952381,True
+45,GenoLab M,F1@0.1,observed,100.000000,3127.840000,0.949625,True
+45,GenoLab M,F1_best,observed,100.000000,3127.840000,0.965971,True
+45,GenoLab M,F1@0.1,observed,120.000000,3753.408000,0.957717,True
+45,GenoLab M,F1_best,observed,120.000000,3753.408000,0.962882,True
+45,GenoLab M,F1@0.1,observed,140.000000,4378.976000,0.951681,True
+45,GenoLab M,F1_best,observed,140.000000,4378.976000,0.964013,True
+45,NovaSeq 6000,F1@0.1,observed,60.000000,1548.810000,0.902490,True
+45,NovaSeq 6000,F1_best,observed,60.000000,1548.810000,0.931996,True
+45,NovaSeq 6000,F1@0.1,observed,80.000000,2065.080000,0.934443,True
+45,NovaSeq 6000,F1_best,observed,80.000000,2065.080000,0.965217,True
+45,NovaSeq 6000,F1@0.1,observed,100.000000,2581.350000,0.932099,True
+45,NovaSeq 6000,F1_best,observed,100.000000,2581.350000,0.957746,True
+45,NovaSeq 6000,F1@0.1,observed,120.000000,3097.620000,0.946392,True
+45,NovaSeq 6000,F1_best,observed,120.000000,3097.620000,0.959402,True
+45,NovaSeq 6000,F1@0.1,observed,140.000000,3613.890000,0.954639,True
+45,NovaSeq 6000,F1_best,observed,140.000000,3613.890000,0.969828,True
+45,NovaSeq X,F1@0.1,observed,60.000000,1716.102000,0.895337,True
+45,NovaSeq X,F1_best,observed,60.000000,1716.102000,0.922034,True
+45,NovaSeq X,F1@0.1,observed,80.000000,2288.136000,0.932921,True
+45,NovaSeq X,F1_best,observed,80.000000,2288.136000,0.939914,True
+45,NovaSeq X,F1@0.1,observed,100.000000,2860.170000,0.939487,True
+45,NovaSeq X,F1_best,observed,100.000000,2860.170000,0.957265,True
+45,NovaSeq X,F1@0.1,observed,120.000000,3432.204000,0.939271,True
+45,NovaSeq X,F1_best,observed,120.000000,3432.204000,0.960929,True
+45,NovaSeq X,F1@0.1,observed,140.000000,4004.238000,0.943935,True
+45,NovaSeq X,F1_best,observed,140.000000,4004.238000,0.960764,True
+45,SURFSeq 5000,F1@0.1,observed,60.000000,1695.660000,0.948367,True
+45,SURFSeq 5000,F1_best,observed,60.000000,1695.660000,0.961915,True
+45,SURFSeq 5000,F1@0.1,observed,80.000000,2260.880000,0.943983,True
+45,SURFSeq 5000,F1_best,observed,80.000000,2260.880000,0.959116,True
+45,SURFSeq 5000,F1@0.1,observed,100.000000,2826.100000,0.953846,True
+45,SURFSeq 5000,F1_best,observed,100.000000,2826.100000,0.965665,True
+45,SURFSeq 5000,F1@0.1,observed,120.000000,3391.320000,0.958592,True
+45,SURFSeq 5000,F1_best,observed,120.000000,3391.320000,0.974359,True
+45,SURFSeq 5000,F1@0.1,observed,140.000000,3956.540000,0.968750,True
+45,SURFSeq 5000,F1_best,observed,140.000000,3956.540000,0.975713,True
+54,DNBSEQ-T7,F1@0.1,observed,60.000000,1498.332000,0.923246,True
+54,DNBSEQ-T7,F1_best,observed,60.000000,1498.332000,0.941309,True
+54,DNBSEQ-T7,F1@0.1,observed,80.000000,1997.776000,0.947020,True
+54,DNBSEQ-T7,F1_best,observed,80.000000,1997.776000,0.965596,True
+54,DNBSEQ-T7,F1@0.1,observed,100.000000,2497.220000,0.962389,True
+54,DNBSEQ-T7,F1_best,observed,100.000000,2497.220000,0.970387,True
+54,DNBSEQ-T7,F1@0.1,observed,120.000000,2996.664000,0.961665,True
+54,DNBSEQ-T7,F1_best,observed,120.000000,2996.664000,0.975501,True
+54,DNBSEQ-T7,F1@0.1,observed,140.000000,3496.108000,0.970297,True
+54,DNBSEQ-T7,F1_best,observed,140.000000,3496.108000,0.977629,True
+54,FASTASeq 300,F1@0.1,observed,60.000000,1811.400000,0.922404,True
+54,FASTASeq 300,F1_best,observed,60.000000,1811.400000,0.954279,True
+54,FASTASeq 300,F1@0.1,observed,80.000000,2415.200000,0.951327,True
+54,FASTASeq 300,F1_best,observed,80.000000,2415.200000,0.962199,True
+54,FASTASeq 300,F1@0.1,observed,100.000000,3019.000000,0.951965,True
+54,FASTASeq 300,F1_best,observed,100.000000,3019.000000,0.962880,True
+54,FASTASeq 300,F1@0.1,observed,120.000000,3622.800000,0.965217,True
+54,FASTASeq 300,F1_best,observed,120.000000,3622.800000,0.971047,True
+54,FASTASeq 300,F1@0.1,observed,140.000000,4226.600000,0.963934,True
+54,FASTASeq 300,F1_best,observed,140.000000,4226.600000,0.975391,True
+54,GenoLab M,F1@0.1,observed,60.000000,1787.520000,0.920705,True
+54,GenoLab M,F1_best,observed,60.000000,1787.520000,0.940230,True
+54,GenoLab M,F1@0.1,observed,80.000000,2383.360000,0.924731,True
+54,GenoLab M,F1_best,observed,80.000000,2383.360000,0.946309,True
+54,GenoLab M,F1@0.1,observed,100.000000,2979.200000,0.948521,True
+54,GenoLab M,F1_best,observed,100.000000,2979.200000,0.965831,True
+54,GenoLab M,F1@0.1,observed,120.000000,3575.040000,0.955191,True
+54,GenoLab M,F1_best,observed,120.000000,3575.040000,0.968610,True
+54,GenoLab M,F1@0.1,observed,140.000000,4170.880000,0.960265,True
+54,GenoLab M,F1_best,observed,140.000000,4170.880000,0.972851,True
+54,NovaSeq 6000,F1@0.1,observed,60.000000,1456.488000,0.919614,True
+54,NovaSeq 6000,F1_best,observed,60.000000,1456.488000,0.941714,True
+54,NovaSeq 6000,F1@0.1,observed,80.000000,1941.984000,0.948857,True
+54,NovaSeq 6000,F1_best,observed,80.000000,1941.984000,0.954495,True
+54,NovaSeq 6000,F1@0.1,observed,100.000000,2427.480000,0.942703,True
+54,NovaSeq 6000,F1_best,observed,100.000000,2427.480000,0.958659,True
+54,NovaSeq 6000,F1@0.1,observed,120.000000,2912.976000,0.955580,True
+54,NovaSeq 6000,F1_best,observed,120.000000,2912.976000,0.968958,True
+54,NovaSeq 6000,F1@0.1,observed,140.000000,3398.472000,0.957356,True
+54,NovaSeq 6000,F1_best,observed,140.000000,3398.472000,0.974863,True
+54,NovaSeq X,F1@0.1,observed,60.000000,1613.634000,0.894793,True
+54,NovaSeq X,F1_best,observed,60.000000,1613.634000,0.932571,True
+54,NovaSeq X,F1@0.1,observed,80.000000,2151.512000,0.945770,True
+54,NovaSeq X,F1_best,observed,80.000000,2151.512000,0.958150,True
+54,NovaSeq X,F1@0.1,observed,100.000000,2689.390000,0.947712,True
+54,NovaSeq X,F1_best,observed,100.000000,2689.390000,0.960541,True
+54,NovaSeq X,F1@0.1,observed,120.000000,3227.268000,0.954741,True
+54,NovaSeq X,F1_best,observed,120.000000,3227.268000,0.963536,True
+54,NovaSeq X,F1@0.1,observed,140.000000,3765.146000,0.954936,True
+54,NovaSeq X,F1_best,observed,140.000000,3765.146000,0.971366,True
+54,SURFSeq 5000,F1@0.1,observed,60.000000,1596.612000,0.941810,True
+54,SURFSeq 5000,F1_best,observed,60.000000,1596.612000,0.960272,True
+54,SURFSeq 5000,F1@0.1,observed,80.000000,2128.816000,0.945102,True
+54,SURFSeq 5000,F1_best,observed,80.000000,2128.816000,0.964206,True
+54,SURFSeq 5000,F1@0.1,observed,100.000000,2661.020000,0.958199,True
+54,SURFSeq 5000,F1_best,observed,100.000000,2661.020000,0.974697,True
+54,SURFSeq 5000,F1@0.1,observed,120.000000,3193.224000,0.975242,True
+54,SURFSeq 5000,F1_best,observed,120.000000,3193.224000,0.984615,True
+54,SURFSeq 5000,F1@0.1,observed,140.000000,3725.428000,0.969762,True
+54,SURFSeq 5000,F1_best,observed,140.000000,3725.428000,0.978070,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1895.334000,0.922175,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1925.042053,0.922889,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1955.215760,0.923603,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1985.862419,0.924318,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2016.989443,0.925032,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2048.604362,0.925746,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2080.714822,0.926460,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2113.328592,0.927174,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2146.453561,0.927888,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2180.097740,0.928602,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2214.269269,0.929316,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2248.976413,0.930030,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2284.227567,0.930744,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2320.031259,0.931458,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2356.396149,0.932172,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2393.331034,0.932886,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2430.844847,0.933600,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2468.946664,0.934314,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2507.645700,0.935028,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2546.951318,0.935742,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2586.873023,0.936456,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2627.420474,0.937170,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2668.603478,0.937884,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2710.431997,0.938598,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2752.916150,0.939312,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2796.066212,0.940026,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2839.892622,0.940740,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2884.405980,0.941454,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2929.617055,0.942168,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2975.536782,0.942882,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3022.176269,0.943596,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3069.546798,0.944310,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3117.659828,0.945024,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3166.526996,0.945738,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3216.160123,0.946452,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3266.571215,0.947166,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3317.772466,0.947880,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3369.776262,0.948594,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3422.595181,0.949308,True
+45,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3476.242000,0.950022,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1895.334000,0.915920,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1925.042053,0.916727,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1955.215760,0.917535,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1985.862419,0.918343,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2016.989443,0.919150,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2048.604362,0.919958,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2080.714822,0.920765,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2113.328592,0.921573,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2146.453561,0.922381,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2180.097740,0.923188,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2214.269269,0.923996,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2248.976413,0.924803,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2284.227567,0.925611,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2320.031259,0.926419,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2356.396149,0.927226,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2393.331034,0.928034,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2430.844847,0.928841,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2468.946664,0.929649,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2507.645700,0.930457,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2546.951318,0.931264,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2586.873023,0.932072,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2627.420474,0.932879,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2668.603478,0.933687,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2710.431997,0.934495,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2752.916150,0.935302,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2796.066212,0.936110,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2839.892622,0.936917,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2884.405980,0.937725,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2929.617055,0.938533,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2975.536782,0.939340,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3022.176269,0.940148,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3069.546798,0.940955,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3117.659828,0.941763,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3166.526996,0.942571,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3216.160123,0.943378,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3266.571215,0.944186,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3317.772466,0.944993,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3369.776262,0.945801,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3422.595181,0.946609,True
+45,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3476.242000,0.947416,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1895.334000,0.911164,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1925.042053,0.912397,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1955.215760,0.913630,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1985.862419,0.914863,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2016.989443,0.916096,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2048.604362,0.917329,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2080.714822,0.918563,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2113.328592,0.919796,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2146.453561,0.921029,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2180.097740,0.922262,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2214.269269,0.923495,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2248.976413,0.924728,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2284.227567,0.925961,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2320.031259,0.927194,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2356.396149,0.928427,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2393.331034,0.929660,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2430.844847,0.930893,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2468.946664,0.932126,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2507.645700,0.933359,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2546.951318,0.934592,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2586.873023,0.935825,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2627.420474,0.937058,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2668.603478,0.938291,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2710.431997,0.939524,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2752.916150,0.940758,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2796.066212,0.941991,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2839.892622,0.943224,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2884.405980,0.944457,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2929.617055,0.945690,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2975.536782,0.946923,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3022.176269,0.948156,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3069.546798,0.949389,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3117.659828,0.950622,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3166.526996,0.951855,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3216.160123,0.953088,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3266.571215,0.954321,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3317.772466,0.955554,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3369.776262,0.956787,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3422.595181,0.958020,True
+45,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3476.242000,0.959253,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1895.334000,0.919052,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1925.042053,0.919927,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1955.215760,0.920802,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1985.862419,0.921677,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2016.989443,0.922553,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2048.604362,0.923428,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2080.714822,0.924303,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2113.328592,0.925178,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2146.453561,0.926053,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2180.097740,0.926928,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2214.269269,0.927803,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2248.976413,0.928678,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2284.227567,0.929553,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2320.031259,0.930429,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2356.396149,0.931304,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2393.331034,0.932179,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2430.844847,0.933054,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2468.946664,0.933929,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2507.645700,0.934804,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2546.951318,0.935679,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2586.873023,0.936554,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2627.420474,0.937429,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2668.603478,0.938305,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2710.431997,0.939180,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2752.916150,0.940055,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2796.066212,0.940930,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2839.892622,0.941805,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2884.405980,0.942680,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2929.617055,0.943555,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2975.536782,0.944430,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3022.176269,0.945305,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3069.546798,0.946181,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3117.659828,0.947056,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3166.526996,0.947931,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3216.160123,0.948806,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3266.571215,0.949681,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3317.772466,0.950556,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3369.776262,0.951431,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3422.595181,0.952306,True
+45,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3476.242000,0.953181,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1895.334000,0.910881,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1925.042053,0.911696,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1955.215760,0.912511,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1985.862419,0.913326,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2016.989443,0.914141,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2048.604362,0.914956,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2080.714822,0.915771,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2113.328592,0.916586,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2146.453561,0.917401,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2180.097740,0.918216,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2214.269269,0.919031,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2248.976413,0.919846,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2284.227567,0.920662,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2320.031259,0.921477,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2356.396149,0.922292,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2393.331034,0.923107,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2430.844847,0.923922,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2468.946664,0.924737,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2507.645700,0.925552,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2546.951318,0.926367,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2586.873023,0.927182,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2627.420474,0.927997,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2668.603478,0.928812,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2710.431997,0.929627,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2752.916150,0.930443,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2796.066212,0.931258,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2839.892622,0.932073,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2884.405980,0.932888,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2929.617055,0.933703,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2975.536782,0.934518,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3022.176269,0.935333,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3069.546798,0.936148,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3117.659828,0.936963,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3166.526996,0.937778,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3216.160123,0.938593,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3266.571215,0.939408,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3317.772466,0.940223,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3369.776262,0.941039,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3422.595181,0.941854,True
+45,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3476.242000,0.942669,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1895.334000,0.945902,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1925.042053,0.946286,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1955.215760,0.946670,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1985.862419,0.947054,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2016.989443,0.947439,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2048.604362,0.947823,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2080.714822,0.948207,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2113.328592,0.948591,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2146.453561,0.948975,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2180.097740,0.949360,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2214.269269,0.949744,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2248.976413,0.950128,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2284.227567,0.950512,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2320.031259,0.950896,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2356.396149,0.951281,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2393.331034,0.951665,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2430.844847,0.952049,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2468.946664,0.952433,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2507.645700,0.952817,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2546.951318,0.953202,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2586.873023,0.953586,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2627.420474,0.953970,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2668.603478,0.954354,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2710.431997,0.954738,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2752.916150,0.955123,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2796.066212,0.955507,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2839.892622,0.955891,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2884.405980,0.956275,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2929.617055,0.956659,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2975.536782,0.957044,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3022.176269,0.957428,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3069.546798,0.957812,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3117.659828,0.958196,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3166.526996,0.958580,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3216.160123,0.958965,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3266.571215,0.959349,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3317.772466,0.959733,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3369.776262,0.960117,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3422.595181,0.960501,True
+45,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3476.242000,0.960886,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1895.334000,0.916579,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1925.042053,0.918034,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1955.215760,0.919489,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1985.862419,0.920944,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2016.989443,0.922399,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2048.604362,0.923854,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2080.714822,0.925309,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2113.328592,0.926764,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2146.453561,0.928219,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2180.097740,0.929675,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2214.269269,0.931130,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2248.976413,0.932585,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2284.227567,0.934040,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2320.031259,0.935495,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2356.396149,0.936950,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2393.331034,0.938405,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2430.844847,0.939860,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2468.946664,0.941315,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2507.645700,0.942770,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2546.951318,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2586.873023,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2627.420474,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2668.603478,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2710.431997,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2752.916150,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2796.066212,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2839.892622,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2884.405980,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2929.617055,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2975.536782,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3022.176269,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3069.546798,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3117.659828,0.943493,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3166.526996,0.943670,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3216.160123,0.944805,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3266.571215,0.945939,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3317.772466,0.947074,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3369.776262,0.948209,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3422.595181,0.949344,True
+45,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3476.242000,0.950479,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1895.334000,0.915562,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1925.042053,0.916046,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1955.215760,0.916530,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1985.862419,0.917014,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2016.989443,0.917498,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2048.604362,0.917983,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2080.714822,0.918467,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2113.328592,0.918951,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2146.453561,0.919435,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2180.097740,0.919920,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2214.269269,0.920404,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2248.976413,0.920888,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2284.227567,0.921372,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2320.031259,0.921857,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2356.396149,0.922341,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2393.331034,0.922825,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2430.844847,0.923309,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2468.946664,0.923794,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2507.645700,0.924455,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2546.951318,0.926227,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2586.873023,0.927998,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2627.420474,0.929769,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2668.603478,0.931541,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2710.431997,0.933312,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2752.916150,0.935083,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2796.066212,0.936855,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2839.892622,0.938626,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2884.405980,0.940397,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2929.617055,0.942168,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2975.536782,0.943940,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3022.176269,0.945711,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3069.546798,0.947482,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3117.659828,0.949254,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3166.526996,0.949967,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3216.160123,0.950400,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3266.571215,0.950833,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3317.772466,0.951266,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3369.776262,0.951698,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3422.595181,0.952131,True
+45,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3476.242000,0.952564,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1895.334000,0.919282,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1925.042053,0.921628,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1955.215760,0.923973,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1985.862419,0.926318,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2016.989443,0.927045,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2048.604362,0.927741,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2080.714822,0.928438,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2113.328592,0.929134,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2146.453561,0.929831,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2180.097740,0.930527,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2214.269269,0.931224,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2248.976413,0.931920,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2284.227567,0.932617,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2320.031259,0.933313,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2356.396149,0.934010,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2393.331034,0.934706,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2430.844847,0.935403,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2468.946664,0.936099,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2507.645700,0.936938,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2546.951318,0.937858,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2586.873023,0.938778,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2627.420474,0.939698,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2668.603478,0.940618,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2710.431997,0.941539,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2752.916150,0.942459,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2796.066212,0.943379,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2839.892622,0.944299,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2884.405980,0.945219,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2929.617055,0.946139,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2975.536782,0.947060,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3022.176269,0.947679,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3069.546798,0.948269,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3117.659828,0.948859,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3166.526996,0.949450,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3216.160123,0.950040,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3266.571215,0.950630,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3317.772466,0.951220,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3369.776262,0.951811,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3422.595181,0.952401,True
+45,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3476.242000,0.952991,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1895.334000,0.924093,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1925.042053,0.925758,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1955.215760,0.927422,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1985.862419,0.929086,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2016.989443,0.930750,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2048.604362,0.932414,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2080.714822,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2113.328592,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2146.453561,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2180.097740,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2214.269269,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2248.976413,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2284.227567,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2320.031259,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2356.396149,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2393.331034,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2430.844847,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2468.946664,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2507.645700,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2546.951318,0.933271,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2586.873023,0.933425,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2627.420474,0.934544,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2668.603478,0.935663,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2710.431997,0.936783,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2752.916150,0.937902,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2796.066212,0.939021,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2839.892622,0.940140,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2884.405980,0.941260,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2929.617055,0.942379,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2975.536782,0.943498,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3022.176269,0.944618,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3069.546798,0.945737,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3117.659828,0.946737,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3166.526996,0.947569,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3216.160123,0.948401,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3266.571215,0.949233,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3317.772466,0.950065,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3369.776262,0.950897,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3422.595181,0.951729,True
+45,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3476.242000,0.952561,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1895.334000,0.908315,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1925.042053,0.910347,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1955.215760,0.912379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1985.862419,0.914411,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2016.989443,0.916443,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2048.604362,0.918475,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2080.714822,0.920506,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2113.328592,0.922538,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2146.453561,0.924570,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2180.097740,0.926602,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2214.269269,0.928634,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2248.976413,0.930666,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2284.227567,0.932698,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2320.031259,0.933322,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2356.396149,0.933772,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2393.331034,0.934222,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2430.844847,0.934672,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2468.946664,0.935122,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2507.645700,0.935572,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2546.951318,0.936022,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2586.873023,0.936472,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2627.420474,0.936923,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2668.603478,0.937373,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2710.431997,0.937823,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2752.916150,0.938273,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2796.066212,0.938723,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2839.892622,0.939173,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2884.405980,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2929.617055,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2975.536782,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3022.176269,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3069.546798,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3117.659828,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3166.526996,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3216.160123,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3266.571215,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3317.772466,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3369.776262,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3422.595181,0.939379,True
+45,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3476.242000,0.939756,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1895.334000,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1925.042053,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1955.215760,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1985.862419,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2016.989443,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2048.604362,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2080.714822,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2113.328592,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2146.453561,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2180.097740,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2214.269269,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2248.976413,0.946175,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2284.227567,0.946528,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2320.031259,0.947063,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2356.396149,0.947597,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2393.331034,0.948132,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2430.844847,0.948667,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2468.946664,0.949201,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2507.645700,0.949736,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2546.951318,0.950271,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2586.873023,0.950805,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2627.420474,0.951340,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2668.603478,0.951875,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2710.431997,0.952409,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2752.916150,0.952944,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2796.066212,0.953479,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2839.892622,0.953973,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2884.405980,0.954378,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2929.617055,0.954782,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2975.536782,0.955187,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3022.176269,0.955592,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3069.546798,0.955997,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3117.659828,0.956402,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3166.526996,0.956807,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3216.160123,0.957212,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3266.571215,0.957616,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3317.772466,0.958021,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3369.776262,0.958426,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3422.595181,0.959197,True
+45,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3476.242000,0.960222,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1895.334000,0.950467,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1925.042053,0.950856,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1955.215760,0.951245,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1985.862419,0.951633,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2016.989443,0.952022,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2048.604362,0.952411,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2080.714822,0.952800,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2113.328592,0.953189,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2146.453561,0.953578,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2180.097740,0.953967,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2214.269269,0.954355,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2248.976413,0.954744,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2284.227567,0.955133,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2320.031259,0.955522,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2356.396149,0.955911,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2393.331034,0.956300,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2430.844847,0.956689,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2468.946664,0.957078,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2507.645700,0.957466,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2546.951318,0.957855,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2586.873023,0.958244,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2627.420474,0.958633,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2668.603478,0.959022,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2710.431997,0.959411,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2752.916150,0.959800,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2796.066212,0.960189,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2839.892622,0.960577,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2884.405980,0.960966,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2929.617055,0.961355,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2975.536782,0.961744,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3022.176269,0.962133,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3069.546798,0.962522,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3117.659828,0.962911,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3166.526996,0.963300,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3216.160123,0.963688,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3266.571215,0.964077,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3317.772466,0.964466,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3369.776262,0.964855,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3422.595181,0.965244,True
+45,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3476.242000,0.965633,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,1895.334000,0.935847,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,1925.042053,0.936490,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,1955.215760,0.937132,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,1985.862419,0.937775,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2016.989443,0.938417,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2048.604362,0.939060,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2080.714822,0.939702,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2113.328592,0.940345,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2146.453561,0.940987,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2180.097740,0.941630,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2214.269269,0.942272,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2248.976413,0.942915,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2284.227567,0.943557,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2320.031259,0.944200,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2356.396149,0.944842,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2393.331034,0.945485,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2430.844847,0.946127,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2468.946664,0.946770,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2507.645700,0.947412,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2546.951318,0.948054,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2586.873023,0.948697,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2627.420474,0.949339,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2668.603478,0.949982,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2710.431997,0.950624,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2752.916150,0.951267,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2796.066212,0.951909,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2839.892622,0.952552,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2884.405980,0.953194,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2929.617055,0.953837,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,2975.536782,0.954479,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3022.176269,0.955122,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3069.546798,0.955764,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3117.659828,0.956407,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3166.526996,0.957049,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3216.160123,0.957692,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3266.571215,0.958334,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3317.772466,0.958977,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3369.776262,0.959619,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3422.595181,0.960262,True
+45,GenoLab M,F1_best,linear_log10_BAMdepth,,3476.242000,0.960904,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1895.334000,0.929466,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1925.042053,0.930581,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1955.215760,0.931697,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1985.862419,0.932812,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2016.989443,0.933928,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2048.604362,0.935044,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2080.714822,0.936159,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2113.328592,0.937275,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2146.453561,0.938391,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2180.097740,0.939506,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2214.269269,0.940622,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2248.976413,0.941738,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2284.227567,0.942853,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2320.031259,0.943969,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2356.396149,0.945084,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2393.331034,0.946200,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2430.844847,0.947316,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2468.946664,0.948431,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2507.645700,0.949547,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2546.951318,0.950663,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2586.873023,0.951778,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2627.420474,0.952894,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2668.603478,0.954010,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2710.431997,0.955125,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2752.916150,0.956241,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2796.066212,0.957357,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2839.892622,0.958472,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2884.405980,0.959588,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2929.617055,0.960703,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2975.536782,0.961819,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3022.176269,0.962935,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3069.546798,0.964050,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3117.659828,0.965166,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3166.526996,0.966282,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3216.160123,0.967397,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3266.571215,0.968513,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3317.772466,0.969629,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3369.776262,0.970744,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3422.595181,0.971860,True
+45,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3476.242000,0.972975,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1895.334000,0.947543,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1925.042053,0.948087,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1955.215760,0.948631,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1985.862419,0.949174,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2016.989443,0.949718,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2048.604362,0.950262,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2080.714822,0.950805,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2113.328592,0.951349,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2146.453561,0.951893,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2180.097740,0.952436,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2214.269269,0.952980,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2248.976413,0.953524,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2284.227567,0.954067,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2320.031259,0.954611,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2356.396149,0.955155,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2393.331034,0.955698,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2430.844847,0.956242,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2468.946664,0.956786,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2507.645700,0.957330,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2546.951318,0.957873,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2586.873023,0.958417,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2627.420474,0.958961,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2668.603478,0.959504,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2710.431997,0.960048,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2752.916150,0.960592,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2796.066212,0.961135,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2839.892622,0.961679,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2884.405980,0.962223,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2929.617055,0.962766,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2975.536782,0.963310,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3022.176269,0.963854,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3069.546798,0.964397,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3117.659828,0.964941,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3166.526996,0.965485,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3216.160123,0.966028,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3266.571215,0.966572,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3317.772466,0.967116,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3369.776262,0.967659,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3422.595181,0.968203,True
+45,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3476.242000,0.968747,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,1895.334000,0.930283,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,1925.042053,0.931038,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,1955.215760,0.931794,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,1985.862419,0.932549,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2016.989443,0.933305,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2048.604362,0.934060,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2080.714822,0.934816,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2113.328592,0.935571,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2146.453561,0.936327,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2180.097740,0.937082,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2214.269269,0.937838,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2248.976413,0.938593,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2284.227567,0.939349,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2320.031259,0.940104,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2356.396149,0.940860,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2393.331034,0.941615,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2430.844847,0.942371,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2468.946664,0.943126,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2507.645700,0.943882,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2546.951318,0.944638,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2586.873023,0.945393,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2627.420474,0.946149,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2668.603478,0.946904,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2710.431997,0.947660,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2752.916150,0.948415,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2796.066212,0.949171,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2839.892622,0.949926,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2884.405980,0.950682,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2929.617055,0.951437,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,2975.536782,0.952193,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3022.176269,0.952948,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3069.546798,0.953704,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3117.659828,0.954459,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3166.526996,0.955215,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3216.160123,0.955970,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3266.571215,0.956726,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3317.772466,0.957481,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3369.776262,0.958237,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3422.595181,0.958992,True
+45,NovaSeq X,F1_best,linear_log10_BAMdepth,,3476.242000,0.959748,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1895.334000,0.960425,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1925.042053,0.960727,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1955.215760,0.961030,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1985.862419,0.961332,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2016.989443,0.961634,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2048.604362,0.961937,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2080.714822,0.962239,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2113.328592,0.962541,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2146.453561,0.962843,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2180.097740,0.963146,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2214.269269,0.963448,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2248.976413,0.963750,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2284.227567,0.964053,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2320.031259,0.964355,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2356.396149,0.964657,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2393.331034,0.964959,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2430.844847,0.965262,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2468.946664,0.965564,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2507.645700,0.965866,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2546.951318,0.966169,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2586.873023,0.966471,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2627.420474,0.966773,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2668.603478,0.967076,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2710.431997,0.967378,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2752.916150,0.967680,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2796.066212,0.967982,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2839.892622,0.968285,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2884.405980,0.968587,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2929.617055,0.968889,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2975.536782,0.969192,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3022.176269,0.969494,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3069.546798,0.969796,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3117.659828,0.970098,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3166.526996,0.970401,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3216.160123,0.970703,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3266.571215,0.971005,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3317.772466,0.971308,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3369.776262,0.971610,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3422.595181,0.971912,True
+45,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3476.242000,0.972215,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1895.334000,0.949721,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1925.042053,0.950267,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1955.215760,0.950813,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1985.862419,0.951359,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2016.989443,0.951905,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2048.604362,0.952451,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2080.714822,0.952997,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2113.328592,0.953543,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2146.453561,0.954089,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2180.097740,0.954635,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2214.269269,0.955181,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2248.976413,0.955727,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2284.227567,0.956273,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2320.031259,0.956819,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2356.396149,0.957365,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2393.331034,0.957911,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2430.844847,0.958457,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2468.946664,0.959003,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2507.645700,0.959550,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2546.951318,0.959872,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2586.873023,0.959975,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2627.420474,0.960077,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2668.603478,0.960180,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2710.431997,0.960282,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2752.916150,0.960384,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2796.066212,0.960487,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2839.892622,0.960589,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2884.405980,0.960692,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2929.617055,0.960794,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2975.536782,0.960896,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3022.176269,0.960999,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3069.546798,0.961101,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3117.659828,0.961204,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3166.526996,0.961383,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3216.160123,0.961981,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3266.571215,0.962580,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3317.772466,0.963178,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3369.776262,0.963777,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3422.595181,0.964375,True
+45,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3476.242000,0.964974,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1895.334000,0.929389,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1925.042053,0.930676,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1955.215760,0.931963,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1985.862419,0.933250,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2016.989443,0.934537,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2048.604362,0.935825,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2080.714822,0.937112,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2113.328592,0.938399,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2146.453561,0.939686,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2180.097740,0.940974,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2214.269269,0.942261,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2248.976413,0.943548,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2284.227567,0.944835,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2320.031259,0.946122,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2356.396149,0.947410,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2393.331034,0.948697,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2430.844847,0.949984,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2468.946664,0.951271,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2507.645700,0.952495,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2546.951318,0.953325,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2586.873023,0.954155,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2627.420474,0.954985,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2668.603478,0.955815,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2710.431997,0.956645,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2752.916150,0.957475,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2796.066212,0.958305,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2839.892622,0.959135,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2884.405980,0.959965,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2929.617055,0.960795,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2975.536782,0.961625,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3022.176269,0.962455,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3069.546798,0.963285,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3117.659828,0.964115,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3166.526996,0.964289,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3216.160123,0.964289,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3266.571215,0.964289,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3317.772466,0.964289,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3369.776262,0.964289,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3422.595181,0.964289,True
+45,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3476.242000,0.964289,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1895.334000,0.933690,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1925.042053,0.935360,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1955.215760,0.937030,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1985.862419,0.938701,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2016.989443,0.939636,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2048.604362,0.940558,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2080.714822,0.941479,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2113.328592,0.942401,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2146.453561,0.943323,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2180.097740,0.944244,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2214.269269,0.945166,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2248.976413,0.946088,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2284.227567,0.947009,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2320.031259,0.947931,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2356.396149,0.948853,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2393.331034,0.949775,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2430.844847,0.950696,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2468.946664,0.951618,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2507.645700,0.952265,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2546.951318,0.952754,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2586.873023,0.953242,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2627.420474,0.953731,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2668.603478,0.954220,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2710.431997,0.954709,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2752.916150,0.955197,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2796.066212,0.955686,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2839.892622,0.956175,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2884.405980,0.956663,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2929.617055,0.957152,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2975.536782,0.957641,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3022.176269,0.959052,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3069.546798,0.960553,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3117.659828,0.962053,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3166.526996,0.963554,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3216.160123,0.965055,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3266.571215,0.966555,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3317.772466,0.968056,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3369.776262,0.969557,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3422.595181,0.971057,True
+45,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3476.242000,0.972558,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1895.334000,0.952204,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1925.042053,0.953760,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1955.215760,0.955317,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1985.862419,0.956873,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2016.989443,0.958430,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2048.604362,0.959987,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2080.714822,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2113.328592,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2146.453561,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2180.097740,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2214.269269,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2248.976413,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2284.227567,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2320.031259,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2356.396149,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2393.331034,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2430.844847,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2468.946664,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2507.645700,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2546.951318,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2586.873023,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2627.420474,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2668.603478,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2710.431997,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2752.916150,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2796.066212,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2839.892622,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2884.405980,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2929.617055,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2975.536782,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3022.176269,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3069.546798,0.960788,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3117.659828,0.961166,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3166.526996,0.962079,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3216.160123,0.962991,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3266.571215,0.963903,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3317.772466,0.964815,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3369.776262,0.965727,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3422.595181,0.966639,True
+45,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3476.242000,0.967551,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1895.334000,0.928208,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1925.042053,0.929175,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1955.215760,0.930141,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1985.862419,0.931108,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2016.989443,0.932075,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2048.604362,0.933041,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2080.714822,0.934008,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2113.328592,0.934975,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2146.453561,0.935941,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2180.097740,0.936908,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2214.269269,0.937874,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2248.976413,0.938841,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2284.227567,0.939808,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2320.031259,0.940990,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2356.396149,0.942200,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2393.331034,0.943409,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2430.844847,0.944618,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2468.946664,0.945828,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2507.645700,0.947037,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2546.951318,0.948246,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2586.873023,0.949456,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2627.420474,0.950665,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2668.603478,0.951874,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2710.431997,0.953084,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2752.916150,0.954293,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2796.066212,0.955502,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2839.892622,0.956712,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2884.405980,0.957431,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2929.617055,0.957736,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2975.536782,0.958042,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3022.176269,0.958347,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3069.546798,0.958653,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3117.659828,0.958958,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3166.526996,0.959264,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3216.160123,0.959569,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3266.571215,0.959875,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3317.772466,0.960180,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3369.776262,0.960486,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3422.595181,0.960791,True
+45,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3476.242000,0.960846,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1895.334000,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1925.042053,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1955.215760,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1985.862419,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2016.989443,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2048.604362,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2080.714822,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2113.328592,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2146.453561,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2180.097740,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2214.269269,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2248.976413,0.960515,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2284.227567,0.960753,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2320.031259,0.961112,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2356.396149,0.961470,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2393.331034,0.961829,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2430.844847,0.962188,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2468.946664,0.962547,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2507.645700,0.962906,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2546.951318,0.963265,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2586.873023,0.963624,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2627.420474,0.963983,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2668.603478,0.964342,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2710.431997,0.964701,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2752.916150,0.965060,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2796.066212,0.965418,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2839.892622,0.965897,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2884.405980,0.966639,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2929.617055,0.967380,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2975.536782,0.968122,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3022.176269,0.968864,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3069.546798,0.969605,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3117.659828,0.970347,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3166.526996,0.971089,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3216.160123,0.971830,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3266.571215,0.972572,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3317.772466,0.973313,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3369.776262,0.974055,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3422.595181,0.974440,True
+45,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3476.242000,0.974576,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1811.400000,0.928545,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1840.862155,0.929319,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1870.803507,0.930092,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1901.231851,0.930866,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1932.155107,0.931639,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1963.581326,0.932412,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,1995.518688,0.933186,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2027.975506,0.933959,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2060.960229,0.934733,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2094.481444,0.935506,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2128.547877,0.936279,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2163.168395,0.937053,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2198.352011,0.937826,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2234.107883,0.938600,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2270.445319,0.939373,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2307.373779,0.940146,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2344.902874,0.940920,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2383.042374,0.941693,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2421.802208,0.942467,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2461.192465,0.943240,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2501.223398,0.944013,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2541.905429,0.944787,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2583.249147,0.945560,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2625.265315,0.946334,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2667.964869,0.947107,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2711.358925,0.947880,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2755.458780,0.948654,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2800.275911,0.949427,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2845.821987,0.950201,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2892.108863,0.950974,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2939.148589,0.951747,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,2986.953408,0.952521,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3035.535766,0.953294,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3084.908309,0.954068,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3135.083889,0.954841,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3186.075568,0.955614,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3237.896618,0.956388,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3290.560531,0.957161,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3344.081014,0.957935,True
+54,FASTASeq 300,F1@0.1,linear_log10_BAMdepth,,3398.472000,0.958708,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1811.400000,0.918284,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1840.862155,0.919121,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1870.803507,0.919959,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1901.231851,0.920797,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1932.155107,0.921634,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1963.581326,0.922472,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,1995.518688,0.923310,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2027.975506,0.924147,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2060.960229,0.924985,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2094.481444,0.925823,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2128.547877,0.926660,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2163.168395,0.927498,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2198.352011,0.928336,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2234.107883,0.929174,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2270.445319,0.930011,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2307.373779,0.930849,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2344.902874,0.931687,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2383.042374,0.932524,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2421.802208,0.933362,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2461.192465,0.934200,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2501.223398,0.935037,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2541.905429,0.935875,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2583.249147,0.936713,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2625.265315,0.937550,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2667.964869,0.938388,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2711.358925,0.939226,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2755.458780,0.940064,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2800.275911,0.940901,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2845.821987,0.941739,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2892.108863,0.942577,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2939.148589,0.943414,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,2986.953408,0.944252,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3035.535766,0.945090,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3084.908309,0.945927,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3135.083889,0.946765,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3186.075568,0.947603,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3237.896618,0.948440,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3290.560531,0.949278,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3344.081014,0.950116,True
+54,GenoLab M,F1@0.1,linear_log10_BAMdepth,,3398.472000,0.950953,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1811.400000,0.938078,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1840.862155,0.938939,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1870.803507,0.939800,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1901.231851,0.940662,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1932.155107,0.941523,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1963.581326,0.942385,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,1995.518688,0.943246,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2027.975506,0.944108,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2060.960229,0.944969,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2094.481444,0.945831,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2128.547877,0.946692,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2163.168395,0.947554,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2198.352011,0.948415,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2234.107883,0.949277,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2270.445319,0.950138,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2307.373779,0.950999,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2344.902874,0.951861,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2383.042374,0.952722,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2421.802208,0.953584,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2461.192465,0.954445,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2501.223398,0.955307,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2541.905429,0.956168,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2583.249147,0.957030,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2625.265315,0.957891,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2667.964869,0.958753,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2711.358925,0.959614,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2755.458780,0.960475,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2800.275911,0.961337,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2845.821987,0.962198,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2892.108863,0.963060,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2939.148589,0.963921,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,2986.953408,0.964783,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3035.535766,0.965644,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3084.908309,0.966506,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3135.083889,0.967367,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3186.075568,0.968229,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3237.896618,0.969090,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3290.560531,0.969952,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3344.081014,0.970813,True
+54,DNBSEQ-T7,F1@0.1,linear_log10_BAMdepth,,3398.472000,0.971674,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1811.400000,0.934701,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1840.862155,0.935354,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1870.803507,0.936008,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1901.231851,0.936662,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1932.155107,0.937316,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1963.581326,0.937970,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,1995.518688,0.938624,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2027.975506,0.939278,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2060.960229,0.939932,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2094.481444,0.940586,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2128.547877,0.941240,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2163.168395,0.941894,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2198.352011,0.942548,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2234.107883,0.943202,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2270.445319,0.943856,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2307.373779,0.944510,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2344.902874,0.945163,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2383.042374,0.945817,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2421.802208,0.946471,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2461.192465,0.947125,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2501.223398,0.947779,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2541.905429,0.948433,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2583.249147,0.949087,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2625.265315,0.949741,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2667.964869,0.950395,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2711.358925,0.951049,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2755.458780,0.951703,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2800.275911,0.952357,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2845.821987,0.953011,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2892.108863,0.953665,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2939.148589,0.954319,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,2986.953408,0.954973,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3035.535766,0.955626,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3084.908309,0.956280,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3135.083889,0.956934,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3186.075568,0.957588,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3237.896618,0.958242,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3290.560531,0.958896,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3344.081014,0.959550,True
+54,NovaSeq 6000,F1@0.1,linear_log10_BAMdepth,,3398.472000,0.960204,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1811.400000,0.916451,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1840.862155,0.917511,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1870.803507,0.918571,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1901.231851,0.919631,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1932.155107,0.920691,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1963.581326,0.921751,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,1995.518688,0.922811,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2027.975506,0.923872,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2060.960229,0.924932,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2094.481444,0.925992,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2128.547877,0.927052,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2163.168395,0.928112,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2198.352011,0.929172,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2234.107883,0.930232,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2270.445319,0.931292,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2307.373779,0.932352,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2344.902874,0.933412,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2383.042374,0.934472,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2421.802208,0.935532,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2461.192465,0.936592,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2501.223398,0.937652,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2541.905429,0.938712,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2583.249147,0.939772,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2625.265315,0.940832,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2667.964869,0.941892,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2711.358925,0.942952,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2755.458780,0.944013,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2800.275911,0.945073,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2845.821987,0.946133,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2892.108863,0.947193,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2939.148589,0.948253,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,2986.953408,0.949313,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3035.535766,0.950373,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3084.908309,0.951433,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3135.083889,0.952493,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3186.075568,0.953553,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3237.896618,0.954613,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3290.560531,0.955673,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3344.081014,0.956733,True
+54,NovaSeq X,F1@0.1,linear_log10_BAMdepth,,3398.472000,0.957793,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1811.400000,0.944103,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1840.862155,0.944760,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1870.803507,0.945418,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1901.231851,0.946075,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1932.155107,0.946733,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1963.581326,0.947390,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,1995.518688,0.948048,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2027.975506,0.948705,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2060.960229,0.949363,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2094.481444,0.950020,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2128.547877,0.950678,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2163.168395,0.951335,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2198.352011,0.951993,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2234.107883,0.952650,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2270.445319,0.953308,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2307.373779,0.953965,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2344.902874,0.954623,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2383.042374,0.955280,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2421.802208,0.955938,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2461.192465,0.956595,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2501.223398,0.957253,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2541.905429,0.957911,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2583.249147,0.958568,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2625.265315,0.959226,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2667.964869,0.959883,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2711.358925,0.960541,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2755.458780,0.961198,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2800.275911,0.961856,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2845.821987,0.962513,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2892.108863,0.963171,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2939.148589,0.963828,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,2986.953408,0.964486,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3035.535766,0.965143,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3084.908309,0.965801,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3135.083889,0.966458,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3186.075568,0.967116,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3237.896618,0.967773,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3290.560531,0.968431,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3344.081014,0.969088,True
+54,SURFSeq 5000,F1@0.1,linear_log10_BAMdepth,,3398.472000,0.969746,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1811.400000,0.922404,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1840.862155,0.924026,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1870.803507,0.925648,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1901.231851,0.927270,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1932.155107,0.928892,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1963.581326,0.930514,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,1995.518688,0.932136,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2027.975506,0.933759,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2060.960229,0.935381,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2094.481444,0.937003,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2128.547877,0.938625,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2163.168395,0.940247,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2198.352011,0.941869,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2234.107883,0.943491,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2270.445319,0.945113,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2307.373779,0.946735,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2344.902874,0.948357,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2383.042374,0.949979,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2421.802208,0.951335,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2461.192465,0.951381,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2501.223398,0.951427,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2541.905429,0.951473,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2583.249147,0.951519,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2625.265315,0.951565,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2667.964869,0.951612,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2711.358925,0.951658,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2755.458780,0.951704,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2800.275911,0.951750,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2845.821987,0.951796,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2892.108863,0.951842,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2939.148589,0.951888,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,2986.953408,0.951934,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3035.535766,0.952343,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3084.908309,0.953459,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3135.083889,0.954575,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3186.075568,0.955691,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3237.896618,0.956807,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3290.560531,0.957922,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3344.081014,0.959038,True
+54,FASTASeq 300,F1@0.1,isotonic_log10_BAMdepth,,3398.472000,0.960154,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1811.400000,0.920891,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1840.862155,0.921117,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1870.803507,0.921342,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1901.231851,0.921568,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1932.155107,0.921794,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1963.581326,0.922020,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,1995.518688,0.922245,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2027.975506,0.922471,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2060.960229,0.922697,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2094.481444,0.922923,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2128.547877,0.923149,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2163.168395,0.923374,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2198.352011,0.923600,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2234.107883,0.923826,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2270.445319,0.924052,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2307.373779,0.924278,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2344.902874,0.924503,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2383.042374,0.924729,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2421.802208,0.926437,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2461.192465,0.928157,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2501.223398,0.929877,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2541.905429,0.931597,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2583.249147,0.933317,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2625.265315,0.935037,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2667.964869,0.936757,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2711.358925,0.938478,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2755.458780,0.940198,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2800.275911,0.941918,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2845.821987,0.943638,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2892.108863,0.945358,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2939.148589,0.947078,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,2986.953408,0.948616,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3035.535766,0.949206,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3084.908309,0.949797,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3135.083889,0.950387,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3186.075568,0.950977,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3237.896618,0.951567,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3290.560531,0.952158,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3344.081014,0.952748,True
+54,GenoLab M,F1@0.1,isotonic_log10_BAMdepth,,3398.472000,0.953338,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1811.400000,0.938927,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1840.862155,0.940260,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1870.803507,0.941593,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1901.231851,0.942927,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1932.155107,0.944260,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1963.581326,0.945593,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,1995.518688,0.946927,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2027.975506,0.948029,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2060.960229,0.949114,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2094.481444,0.950199,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2128.547877,0.951284,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2163.168395,0.952369,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2198.352011,0.953454,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2234.107883,0.954539,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2270.445319,0.955624,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2307.373779,0.956709,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2344.902874,0.957795,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2383.042374,0.958880,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2421.802208,0.959965,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2461.192465,0.961050,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2501.223398,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2541.905429,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2583.249147,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2625.265315,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2667.964869,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2711.358925,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2755.458780,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2800.275911,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2845.821987,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2892.108863,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2939.148589,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,2986.953408,0.962027,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3035.535766,0.962718,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3084.908309,0.963584,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3135.083889,0.964450,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3186.075568,0.965315,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3237.896618,0.966181,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3290.560531,0.967046,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3344.081014,0.967912,True
+54,DNBSEQ-T7,F1@0.1,isotonic_log10_BAMdepth,,3398.472000,0.968777,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1811.400000,0.939449,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1840.862155,0.940916,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1870.803507,0.942384,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1901.231851,0.943851,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1932.155107,0.945318,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1963.581326,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,1995.518688,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2027.975506,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2060.960229,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2094.481444,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2128.547877,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2163.168395,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2198.352011,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2234.107883,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2270.445319,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2307.373779,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2344.902874,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2383.042374,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2421.802208,0.945780,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2461.192465,0.946521,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2501.223398,0.947389,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2541.905429,0.948256,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2583.249147,0.949123,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2625.265315,0.949990,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2667.964869,0.950857,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2711.358925,0.951725,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2755.458780,0.952592,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2800.275911,0.953459,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2845.821987,0.954326,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2892.108863,0.955194,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2939.148589,0.955683,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,2986.953408,0.955869,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3035.535766,0.956055,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3084.908309,0.956241,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3135.083889,0.956427,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3186.075568,0.956612,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3237.896618,0.956798,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3290.560531,0.956984,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3344.081014,0.957170,True
+54,NovaSeq 6000,F1@0.1,isotonic_log10_BAMdepth,,3398.472000,0.957356,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1811.400000,0.915279,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1840.862155,0.918138,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1870.803507,0.920997,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1901.231851,0.923856,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1932.155107,0.926715,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1963.581326,0.929574,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,1995.518688,0.932433,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2027.975506,0.935292,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2060.960229,0.938151,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2094.481444,0.941010,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2128.547877,0.943869,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2163.168395,0.945817,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2198.352011,0.945957,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2234.107883,0.946098,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2270.445319,0.946238,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2307.373779,0.946379,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2344.902874,0.946519,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2383.042374,0.946660,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2421.802208,0.946800,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2461.192465,0.946940,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2501.223398,0.947081,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2541.905429,0.947221,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2583.249147,0.947362,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2625.265315,0.947502,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2667.964869,0.947642,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2711.358925,0.948026,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2755.458780,0.948648,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2800.275911,0.949270,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2845.821987,0.949892,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2892.108863,0.950514,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2939.148589,0.951136,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,2986.953408,0.951758,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3035.535766,0.952380,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3084.908309,0.953002,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3135.083889,0.953624,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3186.075568,0.954246,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3237.896618,0.954745,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3290.560531,0.954766,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3344.081014,0.954786,True
+54,NovaSeq X,F1@0.1,isotonic_log10_BAMdepth,,3398.472000,0.954806,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1811.400000,0.943254,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1840.862155,0.943439,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1870.803507,0.943624,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1901.231851,0.943808,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1932.155107,0.943993,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1963.581326,0.944177,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,1995.518688,0.944362,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2027.975506,0.944547,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2060.960229,0.944731,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2094.481444,0.944916,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2128.547877,0.945101,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2163.168395,0.946042,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2198.352011,0.946989,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2234.107883,0.947935,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2270.445319,0.948882,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2307.373779,0.949829,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2344.902874,0.950776,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2383.042374,0.951723,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2421.802208,0.952670,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2461.192465,0.953617,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2501.223398,0.954564,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2541.905429,0.955511,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2583.249147,0.956458,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2625.265315,0.957405,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2667.964869,0.958403,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2711.358925,0.959669,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2755.458780,0.960935,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2800.275911,0.962201,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2845.821987,0.963466,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2892.108863,0.964732,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2939.148589,0.965998,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,2986.953408,0.967263,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3035.535766,0.968529,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3084.908309,0.969795,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3135.083889,0.971060,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3186.075568,0.972326,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3237.896618,0.972502,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3290.560531,0.972502,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3344.081014,0.972502,True
+54,SURFSeq 5000,F1@0.1,isotonic_log10_BAMdepth,,3398.472000,0.972502,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1811.400000,0.953949,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1840.862155,0.954335,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1870.803507,0.954722,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1901.231851,0.955109,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1932.155107,0.955495,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1963.581326,0.955882,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,1995.518688,0.956269,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2027.975506,0.956655,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2060.960229,0.957042,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2094.481444,0.957428,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2128.547877,0.957815,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2163.168395,0.958202,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2198.352011,0.958588,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2234.107883,0.958975,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2270.445319,0.959362,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2307.373779,0.959748,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2344.902874,0.960135,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2383.042374,0.960522,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2421.802208,0.960908,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2461.192465,0.961295,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2501.223398,0.961682,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2541.905429,0.962068,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2583.249147,0.962455,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2625.265315,0.962842,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2667.964869,0.963228,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2711.358925,0.963615,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2755.458780,0.964002,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2800.275911,0.964388,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2845.821987,0.964775,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2892.108863,0.965161,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2939.148589,0.965548,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,2986.953408,0.965935,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3035.535766,0.966321,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3084.908309,0.966708,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3135.083889,0.967095,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3186.075568,0.967481,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3237.896618,0.967868,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3290.560531,0.968255,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3344.081014,0.968641,True
+54,FASTASeq 300,F1_best,linear_log10_BAMdepth,,3398.472000,0.969028,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,1811.400000,0.939708,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,1840.862155,0.940384,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,1870.803507,0.941061,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,1901.231851,0.941737,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,1932.155107,0.942414,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,1963.581326,0.943090,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,1995.518688,0.943767,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2027.975506,0.944443,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2060.960229,0.945120,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2094.481444,0.945796,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2128.547877,0.946473,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2163.168395,0.947149,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2198.352011,0.947826,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2234.107883,0.948502,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2270.445319,0.949179,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2307.373779,0.949855,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2344.902874,0.950532,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2383.042374,0.951208,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2421.802208,0.951885,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2461.192465,0.952561,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2501.223398,0.953238,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2541.905429,0.953914,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2583.249147,0.954591,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2625.265315,0.955268,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2667.964869,0.955944,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2711.358925,0.956621,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2755.458780,0.957297,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2800.275911,0.957974,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2845.821987,0.958650,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2892.108863,0.959327,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2939.148589,0.960003,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,2986.953408,0.960680,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3035.535766,0.961356,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3084.908309,0.962033,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3135.083889,0.962709,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3186.075568,0.963386,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3237.896618,0.964062,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3290.560531,0.964739,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3344.081014,0.965415,True
+54,GenoLab M,F1_best,linear_log10_BAMdepth,,3398.472000,0.966092,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1811.400000,0.954684,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1840.862155,0.955346,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1870.803507,0.956007,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1901.231851,0.956669,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1932.155107,0.957330,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1963.581326,0.957992,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,1995.518688,0.958653,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2027.975506,0.959315,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2060.960229,0.959976,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2094.481444,0.960638,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2128.547877,0.961299,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2163.168395,0.961961,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2198.352011,0.962622,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2234.107883,0.963284,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2270.445319,0.963945,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2307.373779,0.964607,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2344.902874,0.965268,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2383.042374,0.965930,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2421.802208,0.966592,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2461.192465,0.967253,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2501.223398,0.967915,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2541.905429,0.968576,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2583.249147,0.969238,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2625.265315,0.969899,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2667.964869,0.970561,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2711.358925,0.971222,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2755.458780,0.971884,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2800.275911,0.972545,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2845.821987,0.973207,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2892.108863,0.973868,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2939.148589,0.974530,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,2986.953408,0.975191,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3035.535766,0.975853,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3084.908309,0.976515,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3135.083889,0.977176,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3186.075568,0.977838,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3237.896618,0.978499,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3290.560531,0.979161,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3344.081014,0.979822,True
+54,DNBSEQ-T7,F1_best,linear_log10_BAMdepth,,3398.472000,0.980484,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1811.400000,0.950178,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1840.862155,0.950796,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1870.803507,0.951414,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1901.231851,0.952031,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1932.155107,0.952649,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1963.581326,0.953266,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,1995.518688,0.953884,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2027.975506,0.954502,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2060.960229,0.955119,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2094.481444,0.955737,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2128.547877,0.956355,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2163.168395,0.956972,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2198.352011,0.957590,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2234.107883,0.958207,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2270.445319,0.958825,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2307.373779,0.959443,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2344.902874,0.960060,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2383.042374,0.960678,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2421.802208,0.961296,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2461.192465,0.961913,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2501.223398,0.962531,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2541.905429,0.963148,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2583.249147,0.963766,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2625.265315,0.964384,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2667.964869,0.965001,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2711.358925,0.965619,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2755.458780,0.966237,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2800.275911,0.966854,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2845.821987,0.967472,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2892.108863,0.968089,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2939.148589,0.968707,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,2986.953408,0.969325,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3035.535766,0.969942,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3084.908309,0.970560,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3135.083889,0.971178,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3186.075568,0.971795,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3237.896618,0.972413,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3290.560531,0.973030,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3344.081014,0.973648,True
+54,NovaSeq 6000,F1_best,linear_log10_BAMdepth,,3398.472000,0.974266,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,1811.400000,0.942846,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,1840.862155,0.943505,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,1870.803507,0.944165,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,1901.231851,0.944824,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,1932.155107,0.945483,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,1963.581326,0.946142,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,1995.518688,0.946801,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2027.975506,0.947460,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2060.960229,0.948119,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2094.481444,0.948778,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2128.547877,0.949437,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2163.168395,0.950096,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2198.352011,0.950755,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2234.107883,0.951414,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2270.445319,0.952073,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2307.373779,0.952732,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2344.902874,0.953391,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2383.042374,0.954051,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2421.802208,0.954710,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2461.192465,0.955369,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2501.223398,0.956028,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2541.905429,0.956687,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2583.249147,0.957346,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2625.265315,0.958005,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2667.964869,0.958664,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2711.358925,0.959323,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2755.458780,0.959982,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2800.275911,0.960641,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2845.821987,0.961300,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2892.108863,0.961959,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2939.148589,0.962618,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,2986.953408,0.963278,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3035.535766,0.963937,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3084.908309,0.964596,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3135.083889,0.965255,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3186.075568,0.965914,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3237.896618,0.966573,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3290.560531,0.967232,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3344.081014,0.967891,True
+54,NovaSeq X,F1_best,linear_log10_BAMdepth,,3398.472000,0.968550,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1811.400000,0.963105,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1840.862155,0.963543,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1870.803507,0.963980,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1901.231851,0.964418,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1932.155107,0.964856,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1963.581326,0.965294,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,1995.518688,0.965731,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2027.975506,0.966169,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2060.960229,0.966607,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2094.481444,0.967044,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2128.547877,0.967482,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2163.168395,0.967920,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2198.352011,0.968358,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2234.107883,0.968795,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2270.445319,0.969233,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2307.373779,0.969671,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2344.902874,0.970108,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2383.042374,0.970546,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2421.802208,0.970984,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2461.192465,0.971422,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2501.223398,0.971859,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2541.905429,0.972297,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2583.249147,0.972735,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2625.265315,0.973173,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2667.964869,0.973610,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2711.358925,0.974048,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2755.458780,0.974486,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2800.275911,0.974923,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2845.821987,0.975361,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2892.108863,0.975799,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2939.148589,0.976237,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,2986.953408,0.976674,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3035.535766,0.977112,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3084.908309,0.977550,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3135.083889,0.977988,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3186.075568,0.978425,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3237.896618,0.978863,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3290.560531,0.979301,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3344.081014,0.979738,True
+54,SURFSeq 5000,F1_best,linear_log10_BAMdepth,,3398.472000,0.980176,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1811.400000,0.954279,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1840.862155,0.954723,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1870.803507,0.955167,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1901.231851,0.955612,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1932.155107,0.956056,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1963.581326,0.956500,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,1995.518688,0.956944,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2027.975506,0.957388,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2060.960229,0.957832,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2094.481444,0.958277,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2128.547877,0.958721,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2163.168395,0.959165,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2198.352011,0.959609,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2234.107883,0.960053,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2270.445319,0.960497,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2307.373779,0.960942,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2344.902874,0.961386,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2383.042374,0.961830,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2421.802208,0.962207,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2461.192465,0.962257,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2501.223398,0.962306,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2541.905429,0.962355,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2583.249147,0.962404,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2625.265315,0.962454,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2667.964869,0.962503,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2711.358925,0.962552,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2755.458780,0.962601,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2800.275911,0.962650,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2845.821987,0.962700,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2892.108863,0.962749,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2939.148589,0.962798,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,2986.953408,0.962847,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3035.535766,0.963125,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3084.908309,0.963847,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3135.083889,0.964570,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3186.075568,0.965293,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3237.896618,0.966016,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3290.560531,0.966738,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3344.081014,0.967461,True
+54,FASTASeq 300,F1_best,isotonic_log10_BAMdepth,,3398.472000,0.968184,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1811.400000,0.940510,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1840.862155,0.940851,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1870.803507,0.941192,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1901.231851,0.941533,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1932.155107,0.941874,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1963.581326,0.942215,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,1995.518688,0.942556,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2027.975506,0.942897,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2060.960229,0.943238,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2094.481444,0.943579,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2128.547877,0.943920,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2163.168395,0.944261,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2198.352011,0.944602,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2234.107883,0.944942,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2270.445319,0.945283,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2307.373779,0.945624,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2344.902874,0.945965,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2383.042374,0.946306,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2421.802208,0.947709,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2461.192465,0.949120,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2501.223398,0.950532,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2541.905429,0.951943,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2583.249147,0.953355,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2625.265315,0.954766,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2667.964869,0.956178,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2711.358925,0.957589,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2755.458780,0.959001,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2800.275911,0.960412,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2845.821987,0.961824,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2892.108863,0.963235,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2939.148589,0.964647,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,2986.953408,0.965871,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3035.535766,0.966117,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3084.908309,0.966362,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3135.083889,0.966608,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3186.075568,0.966854,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3237.896618,0.967100,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3290.560531,0.967346,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3344.081014,0.967592,True
+54,GenoLab M,F1_best,isotonic_log10_BAMdepth,,3398.472000,0.967838,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1811.400000,0.957328,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1840.862155,0.958690,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1870.803507,0.960052,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1901.231851,0.961414,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1932.155107,0.962776,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1963.581326,0.964138,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,1995.518688,0.965501,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2027.975506,0.965918,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2060.960229,0.966265,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2094.481444,0.966611,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2128.547877,0.966957,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2163.168395,0.967304,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2198.352011,0.967650,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2234.107883,0.967997,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2270.445319,0.968343,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2307.373779,0.968689,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2344.902874,0.969036,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2383.042374,0.969382,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2421.802208,0.969729,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2461.192465,0.970075,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2501.223398,0.970432,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2541.905429,0.970884,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2583.249147,0.971337,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2625.265315,0.971790,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2667.964869,0.972242,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2711.358925,0.972695,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2755.458780,0.973147,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2800.275911,0.973600,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2845.821987,0.974052,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2892.108863,0.974505,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2939.148589,0.974957,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,2986.953408,0.975410,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3035.535766,0.975679,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3084.908309,0.975902,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3135.083889,0.976124,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3186.075568,0.976347,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3237.896618,0.976570,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3290.560531,0.976793,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3344.081014,0.977015,True
+54,DNBSEQ-T7,F1_best,isotonic_log10_BAMdepth,,3398.472000,0.977238,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1811.400000,0.951402,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1840.862155,0.952119,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1870.803507,0.952836,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1901.231851,0.953553,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1932.155107,0.954270,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1963.581326,0.954701,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,1995.518688,0.955002,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2027.975506,0.955304,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2060.960229,0.955605,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2094.481444,0.955906,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2128.547877,0.956207,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2163.168395,0.956508,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2198.352011,0.956809,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2234.107883,0.957110,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2270.445319,0.957411,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2307.373779,0.957712,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2344.902874,0.958013,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2383.042374,0.958314,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2421.802208,0.958615,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2461.192465,0.959438,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2501.223398,0.960349,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2541.905429,0.961261,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2583.249147,0.962172,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2625.265315,0.963084,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2667.964869,0.963995,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2711.358925,0.964906,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2755.458780,0.965818,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2800.275911,0.966729,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2845.821987,0.967641,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2892.108863,0.968552,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2939.148589,0.969301,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,2986.953408,0.969919,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3035.535766,0.970537,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3084.908309,0.971155,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3135.083889,0.971773,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3186.075568,0.972391,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3237.896618,0.973009,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3290.560531,0.973627,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3344.081014,0.974245,True
+54,NovaSeq 6000,F1_best,isotonic_log10_BAMdepth,,3398.472000,0.974863,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1811.400000,0.942850,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1840.862155,0.944285,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1870.803507,0.945720,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1901.231851,0.947154,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1932.155107,0.948589,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1963.581326,0.950023,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,1995.518688,0.951458,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2027.975506,0.952892,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2060.960229,0.954327,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2094.481444,0.955761,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2128.547877,0.957196,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2163.168395,0.958208,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2198.352011,0.958381,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2234.107883,0.958554,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2270.445319,0.958727,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2307.373779,0.958899,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2344.902874,0.959072,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2383.042374,0.959245,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2421.802208,0.959418,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2461.192465,0.959591,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2501.223398,0.959764,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2541.905429,0.959937,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2583.249147,0.960110,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2625.265315,0.960282,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2667.964869,0.960455,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2711.358925,0.960675,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2755.458780,0.960940,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2800.275911,0.961205,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2845.821987,0.961470,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2892.108863,0.961735,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2939.148589,0.962000,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,2986.953408,0.962265,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3035.535766,0.962530,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3084.908309,0.962795,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3135.083889,0.963060,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3186.075568,0.963325,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3237.896618,0.963703,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3290.560531,0.964523,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3344.081014,0.965342,True
+54,NovaSeq X,F1_best,isotonic_log10_BAMdepth,,3398.472000,0.966162,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1811.400000,0.961998,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1840.862155,0.962219,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1870.803507,0.962439,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1901.231851,0.962660,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1932.155107,0.962881,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1963.581326,0.963101,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,1995.518688,0.963322,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2027.975506,0.963542,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2060.960229,0.963763,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2094.481444,0.963984,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2128.547877,0.964204,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2163.168395,0.964959,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2198.352011,0.965717,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2234.107883,0.966476,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2270.445319,0.967234,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2307.373779,0.967993,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2344.902874,0.968751,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2383.042374,0.969510,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2421.802208,0.970268,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2461.192465,0.971027,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2501.223398,0.971785,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2541.905429,0.972544,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2583.249147,0.973302,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2625.265315,0.974061,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2667.964869,0.974792,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2711.358925,0.975380,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2755.458780,0.975968,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2800.275911,0.976556,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2845.821987,0.977144,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2892.108863,0.977732,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2939.148589,0.978320,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,2986.953408,0.978909,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3035.535766,0.979497,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3084.908309,0.980085,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3135.083889,0.980673,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3186.075568,0.981261,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3237.896618,0.981343,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3290.560531,0.981343,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3344.081014,0.981343,True
+54,SURFSeq 5000,F1_best,isotonic_log10_BAMdepth,,3398.472000,0.981343,True
