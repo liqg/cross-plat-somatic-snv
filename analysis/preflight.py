@@ -150,7 +150,7 @@ def main():
         c.check("cover letter: no liqg3 URL", "liqg3/cross-plat" not in cover)
 
     # ---- PDFs
-    for name, expected in [(highlighted, 28), (response_pdf, 26), (af2, 13), (cover_pdf, 1)]:
+    for name, expected in [(highlighted, 27), (response_pdf, 26), (af2, 13), (cover_pdf, 1)]:
         pages = pdf_pages(name) if name.exists() else None
         c.check(f"PDF pages: {name.name}", pages == expected, f"got {pages}, expected {expected}")
     for name in [highlighted, response_pdf, af2]:
