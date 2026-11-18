@@ -14,6 +14,11 @@ revision scripts can be reused unchanged.
 
 ```
 data/
+├── somaticxgb/
+│   ├── SomaticXGB_training_matrix_HG001-HG003.tsv.gz  # 493,937 × 27
+│   ├── SomaticXGB_test_matrix_HG004-HG005.tsv.gz      # 137,131 × 27
+│   ├── SHA256SUMS
+│   └── README.md
 ├── fastq/
 │   └── {sample_id}_R1.fq.gz, {sample_id}_R2.fq.gz
 ├── reference/

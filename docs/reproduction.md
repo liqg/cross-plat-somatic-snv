@@ -102,6 +102,13 @@ pair's position file and 0 otherwise.  The test feature matrix is expected to
 contain 137,131 candidates (27,328 positive / 109,803 negative) across 60
 conditions.
 
+Prebuilt copies of both matrices are deposited in
+[`data/somaticxgb/`](../data/somaticxgb/README.md), with column definitions,
+label rule, provenance and SHA256 checksums.  The training file is
+`SomaticXGB_training_matrix_HG001-HG003.tsv.gz`; the test file is
+`SomaticXGB_test_matrix_HG004-HG005.tsv.gz` (137,131 rows).  The earlier
+`dt_test_45_54.txt` (137,149 rows) is a previous-draft matrix and is not used.
+
 ## 4. Error rates (errorRates)
 
 `errorRates-v1.3` is vendored in `software/errorRates/`.  For each aligned,

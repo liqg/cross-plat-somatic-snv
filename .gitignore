@@ -1,5 +1,7 @@
 # data and pipeline outputs
-data/
+data/*
+!data/somaticxgb/
+!data/somaticxgb/**
 work/
 results/*
 !results/.gitkeep

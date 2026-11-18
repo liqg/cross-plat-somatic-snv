@@ -112,7 +112,9 @@ External references are not redistributed:
 
 The expected directory layout is in [`docs/data_layout.md`](docs/data_layout.md).
 Small annotations (panel BED, intersection BEDs, position tables, released
-supplementary files) are included.
+supplementary files) are included.  The released SomaticXGB feature matrices
+are in [`data/somaticxgb/`](data/somaticxgb/README.md): 493,937 training
+candidates and 137,131 test candidates, with checksums and generation notes.
 
 ## Running the pipeline
 
