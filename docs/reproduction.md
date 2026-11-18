@@ -96,8 +96,11 @@ Rscript workflow/somaticxgb/predict_SomaticXGB.R \
 
 The released model can be used directly
 (`software/somaticxgb/models/SomaticXGB`); retraining reproduces Tables S19 and
-S20.  The test feature matrix is expected to contain 137,131 candidates
-(27,328 positive / 109,803 negative) across 60 conditions.
+S20.  The training matrix contains 493,937 candidates (66,972 positive /
+426,965 negative); a VarScan2-called allele is labelled 1 when it matches the
+pair's position file and 0 otherwise.  The test feature matrix is expected to
+contain 137,131 candidates (27,328 positive / 109,803 negative) across 60
+conditions.
 
 ## 4. Error rates (errorRates)
 

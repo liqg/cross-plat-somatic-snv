@@ -167,8 +167,8 @@ the submitted Additional files.
 
 - Alignment and simulation: ~100 cores per pair, 32-64 GB RAM; the full
   72-dataset alignment is the dominant cost.
-- SomaticXGB training matrix: 493,937 rows x 17 features; 8-32 threads,
-  ~8 GB RAM.
+- SomaticXGB training matrix: 493,937 rows x 17 features (66,972 positive /
+  426,965 negative); 8-32 threads, ~8 GB RAM.
 - Figure and table scripts: a laptop with 8 GB RAM.
 
 ## Citation
