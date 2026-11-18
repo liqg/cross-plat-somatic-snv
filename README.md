@@ -2,8 +2,8 @@
 
 Code and workflows for the manuscript
 
-> **Assessing Low-Frequency Somatic SNV Detection: A Multi-Platform
-> High-Throughput Sequencing Perspective**
+> **Assessment and Development of Methods for Low-Frequency Somatic SNV
+> Detection: A Multi-Platform High-Throughput Sequencing Perspective**
 
 This repository reproduces the complete analysis chain:
 

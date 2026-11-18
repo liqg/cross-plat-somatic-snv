@@ -15,7 +15,7 @@ license: MIT
 repository-code: "https://github.com/liqg/cross-plat-somatic-snv"
 preferred-citation:
   type: article
-  title: "Assessing Low-Frequency Somatic SNV Detection: A Multi-Platform High-Throughput Sequencing Perspective"
+  title: "Assessment and Development of Methods for Low-Frequency Somatic SNV Detection: A Multi-Platform High-Throughput Sequencing Perspective"
   authors:
     - family-names: Feng
       given-names: Baosheng
